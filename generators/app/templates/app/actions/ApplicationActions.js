@@ -19,7 +19,7 @@ class ApplicationActions {
       if(config.action) {
         return this.alt
         .getActions(config.action)
-        .load()
+        .load(route.params)
         .then(() => {
 
           resolve();
