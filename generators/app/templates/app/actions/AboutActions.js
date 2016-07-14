@@ -6,7 +6,7 @@ class AboutActions {
 
     return new Promise((resolve, reject) => {
       TimeActions
-      .updateTime()
+      .updateTime(params.days)
       .then(resolve)
       .catch(reject);
     });
