@@ -10,7 +10,7 @@ const router = new Router({
     component: Home
   },
   about: {
-    path: '/about',
+    path: '/about/:days',
     method: 'get',
     component: About,
     action: 'AboutActions'
