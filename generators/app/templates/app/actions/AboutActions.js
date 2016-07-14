@@ -1,5 +1,5 @@
 class AboutActions {
-  load() {
+  load(params) {
     const { TimeActions } = this.alt.actions;
 
     this.dispatch();
